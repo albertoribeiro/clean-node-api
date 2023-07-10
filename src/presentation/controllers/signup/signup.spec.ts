@@ -31,6 +31,7 @@ interface SutTypes {
   emailValidatorStub: EmailValidator
   addAccountStub: AddAccount
 }
+
 const makeSut = (): SutTypes => {
   const addAccountStub = makeAddAccount()
   const emailValidatorStub = makeEmailValidator()
